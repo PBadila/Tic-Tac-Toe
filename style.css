@@ -1,0 +1,66 @@
+body{
+    background-image:url("Screen Shot 2023-03-02 at 7.21.32 PM.png");
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+
+.trans-back{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    background-color:rgba(255,255,255,0.9);
+    justify-content:center;
+    margin:auto;
+    margin-top:100px;
+
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size:4rem;
+    color: #72099B;
+    text-align:center;
+}
+
+.game-board{
+    margin:auto;
+    display:grid;
+    /*background-color:pink;*/
+    grid-template-columns:repeat(3,50px);
+    grid-template-rows:repeat(3,50px);
+    padding:10px;
+    justify-content:center;
+    
+}
+.spot{
+    /*background-color:purple;*/
+    padding:20px;
+    text-align:center;
+
+}
+.spotbr{
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.spotb{
+    border-bottom: 3px solid black;
+}
+
+.spotr{
+    border-right: 3px solid black;
+}
+.color-1{
+    background-color:#EBDEF0;
+}
+
+.color-2{
+    background-color:#D7BDE2;
+}
+
+h2{
+    color:#EBDEF0;
+    text-align:center;
+    font-family: 'Mynerve', cursive;
+}
